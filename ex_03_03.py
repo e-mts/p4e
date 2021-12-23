@@ -9,13 +9,13 @@ while True:
     except:
         print('\nNot a valid input! Try again.\n')
 
-for i, j in enumerate(linspace(0.6, 1, 5)):
-    if j <= studentGrade:
+for counter, value in enumerate(linspace(0.6, 1, 5)):
+    if value <= studentGrade:
         continue
     else:
         break
 
-if i == 0:
+if counter == 0:
     print("Your grade is: {}.".format(chr(70)))
 else:
-    print("Your grade is: {}.".format(chr(69 - i)))
+    print("Your grade is: {}.".format(chr(69 - counter)))
