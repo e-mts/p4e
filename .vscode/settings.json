@@ -1,4 +1,5 @@
 {
     "jupyter.jupyterServerType": "local",
-    "code-runner.preserveFocus": false
+    "code-runner.preserveFocus": false,
+    "pomodoro.workTime": 1
 }
